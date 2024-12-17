@@ -1,0 +1,4 @@
+aws-lambda-powertools==2.43.1
+aws_xray_sdk==2.14.0
+pypandoc==1.13
+pypandoc_binary==1.14

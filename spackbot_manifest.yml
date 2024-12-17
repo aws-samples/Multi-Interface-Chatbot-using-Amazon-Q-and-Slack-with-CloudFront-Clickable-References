@@ -1,0 +1,30 @@
+display_information:
+  name: SpackChatbot
+  description: Chatbot that uses spack and S3 bucket data to to answer user questions.
+  background_color: "#1d7c00"
+features:
+  bot_user:
+    display_name: SpackChatbot
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - im:read
+      - im:write
+      - chat:write
+      - app_mentions:read
+      - im:history
+      - reactions:read
+      - groups:history
+      - channels:history
+      - channels:read
+      - groups:read
+settings:
+  event_subscriptions:
+    request_url: https://api.slack.com/apps
+    bot_events:
+      - app_mention
+      - reaction_added
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

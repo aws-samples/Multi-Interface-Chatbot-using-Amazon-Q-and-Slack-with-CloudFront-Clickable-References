@@ -1,0 +1,7 @@
+Spack: A Flexible Package Manager for HPC Software
+
+Large-scale supercomputer simulations—often containing millions of lines of code—rely on hundreds of external software libraries, or packages. Users of the same high performance computing (HPC) system frequently need different versions and configurations of these packages to test the performance and compatibility of their code. Efficient packaging tools are critical in HPC environments, but traditional package managers are limiting because they cannot manage simultaneous installations of multiple versions and configurations. Consequently, users, developers, and HPC support staff spend many hours building codes and libraries by hand.
+
+After many hours building software on Lawrence Livermore’s supercomputers, in 2013 Todd Gamblin created the first prototype of a package manager he named Spack (Supercomputer PACKage manager). The tool caught on, and development became a grassroots effort as colleagues began to use the tool. The Spack team at Livermore now includes computer scientists Gregory Becker, Peter Scheibel, Tamara Dahlgren, Gregory Lee, and Matthew LeGendre. The core development team also includes Adam Stewart from UIUC, Massimiliano Culpo from Sylabs, and Scott Wittenburg, Zack Galbreath, and Omar Padron from Kitware.
+
+In 2019, Spack won an R&D 100 award in the Software/Services category and was an R&D Special Recognition medalist in the Market Disruptor—Services category.
