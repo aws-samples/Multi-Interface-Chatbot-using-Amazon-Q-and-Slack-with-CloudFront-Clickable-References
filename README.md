@@ -1,4 +1,4 @@
-# Radiuss-Spack Amazon Q and Slack Rag Chatbot
+# Multi-interface chatbot using Amazon Q and Slack with CloudFront clickable sources 
 
 ## Introduction:
 This application is an AI-powered chatbot designed to help users navigate and utilize the [Spack package manager tool](https://spack.io/). 
