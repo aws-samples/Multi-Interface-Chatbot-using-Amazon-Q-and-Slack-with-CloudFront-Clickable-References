@@ -187,6 +187,11 @@ Subscription tiers are available in this [link](https://aws.amazon.com/q/busines
 * `Amazon Q`: AWS Console -> Amazon Q Business -> Applications -> Radiuss -> Web experience settings -> Deployed URL
 * `Slack`: Workspace -> Designated Channel -> Send a single message that starts with @SpackChatbot
 
+## Clean up:
+```bash
+cdk destroy --all
+```
+
 # Authors and Reviewers:
  * Nick Biso, Machine Learning Engineer - Amazon Web Services Inc.
  * Ian Lunsford, Aerospace Cloud Consultant - Amazon Web Services Inc.
